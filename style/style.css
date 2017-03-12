@@ -776,7 +776,9 @@ header .header-logo-container {
     transition-timing-function: ease-out;
 
 }
-
+a:active, a:focus, a:visited, a:hover, a:-webkit-any-link {
+    text-decoration: none;
+}
 
 
 @media screen and (max-width: 1279px) {

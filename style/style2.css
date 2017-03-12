@@ -321,7 +321,9 @@ header .header-logo-container {
     margin-top: 70px;
     margin-bottom: 30px;
 }
-
+.spoiler-btn {
+    cursor: pointer;
+}
 @media screen and (max-width: 1100px) {
 .container {
     width:769px;

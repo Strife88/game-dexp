@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/typo2.css">
+    <link rel="stylesheet" href="style/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,700,900" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header-logo-container">
+        <a href="index.html#main-page-start"><div class="header-logo"></div></a>
+        </div>
+        <div class="nav">
+        <a href="index.html#open-class"><h7>Открытое занятие</h7></a>
+        <a href="program.html"><h7>Программа семинара</h7></a>
+        <a href="index.html#payment-anchor"><h7 class="header-button">Участвовать</h7></a>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="velo-logo">
+    </div>
+    <h1>Программа мероприятий</br>Велосеминара 2017</h1>
+    <h5>г. Владивосток</h5>
+
+    <div class="card lection">
+        <div class="card-date-block">
+            <h3>16 Марта</h3>
+            <h5>Снеговая 35 «СТК Гринтур» </h5>    
+        </div>
+        <div class="card-text-block lection">
+            <h3>Лекция</h3>
+            <h2>Вводное занятие</h2>
+            <p>Цели, задачи семинара. Велопоходы и их особенности. Сезоны велотуризма. Возможности организации велопоходов по Приморью и в ближайшем зарубежье. Физическая подготовка участников велопохода и её улучшение.</p>
+            <p id="sp-1" class="spoiler">Спортивные велопоходы, их отличие от отдыха с велосипедами. Категории сложности спортивных походов. Виды велопоходов: пробеги, походы, марафоны, экспедиции, велопутешествия. Особенности летнего катания (температура, влажность, кровососущие…) Особенности весны/осени (замерзание воды и земли, перепад tо) Особеннности зимнего катания (t и лёд). Особенности  велопоходов по нашему краю. Возможности организации спортивных походов по Приморью. Велопоходы по Китаю, Вьетнаму, Корее, Монголии. Выносливость и её тестирование. Интенсивный Гарвардский степ-тест. Варианты тренировок по повышению физической подготовки.</p>
+            <h5 id="sp-1-btn" class="spoiler-btn">Подробнее</h5>
+        </div>
+        <div class="card-image-block card-image-1"></div>
+    </div>
+    <div class="card">
+        <div class="card-date-block">
+            <h3>18 Марта</h3>
+            <h5>Шошина 25 А</h5>    
+        </div>
+        <div class="card-text-block practice">
+            <h3>Практика</h3>
+            <h2>Регулировка посадки на велосипеде</h2>
+            <p>Регулировка велосипеда. Правильная посадка на велосипед. Удержание равновесия на велосипеде.</p>
+        </div>
+        <div class="card-image-block card-image-2"></div>
+    </div>
+    <div class="card lection">
+        <div class="card-date-block">
+            <h3>23 Марта</h3>
+            <h5>Шошина 25 А</h5>    
+        </div>
+        <div class="card-text-block lection">
+            <h3>Лекция</h3>
+            <h2>Устройство велосипеда</h2>
+            <p>Устройство байка. Велосипед для велотуризма. Настройка, уход за техникой. Подготовка велосипедов к велопоходу. Использование ремнабора.</p>
+            <p id="sp-2" class="spoiler">Спортивные велопоходы, их отличие от отдыха с велосипедами. Категории сложности спортивных походов. Виды велопоходов: пробеги, походы, марафоны, экспедиции, велопутешествия. Особенности летнего катания (температура, влажность, кровососущие…) Особенности весны/осени (замерзание воды и земли, перепад tо) Особеннности зимнего катания (t и лёд). Особенности  велопоходов по нашему краю. Возможности организации спортивных походов по Приморью. Велопоходы по Китаю, Вьетнаму, Корее, Монголии. Выносливость и её тестирование. Интенсивный Гарвардский степ-тест. Варианты тренировок по повышению физической подготовки.</p>
+            <h5 id="sp-2-btn" class="spoiler-btn">Подробнее</h5>
+        </div>
+        <div class="card-image-block card-image-3"></div>
+    </div>
+
+    <div class="card lection">
+        <div class="card-date-block">
+            <h3>30 Марта</h3>
+            <h5>Шошина 25 А</h5>    
+        </div>
+        <div class="card-text-block lection">
+            <h3>Лекция</h3>
+            <h2>Снаряжение в велотуризме</h2>
+            <p>Снаряжение велотуриста. Техническая подготовка велотуриста</p>
+            <p id="sp-3" class="spoiler">Современное представление о личном снаряжении велотуриста – обувь, носки, бельё, теплозащита, влаговеторозащита, перчатки, головной убор, дополнительные мелочи. Выбор общественного снаряжения в зависимости от маршрута похода. Предпоходная подготовка снаряжения. Варианты загрузки байка на маршруте в зависимости от сложности пути.  
+ Посадка, торможение и его отработка, повороты, педалирование, преодоление препятствий. Организация тренировок по технике езды</p>
+            <h5 id="sp-3-btn" class="spoiler-btn">Подробнее</h5>
+        </div>
+        <div class="card-image-block card-image-4"></div>
+    </div>
+    <div class="card">
+        <div class="card-date-block">
+            <h3>1 — 2 Апреля</h3>
+            <h5>- Заря</br>- карьер</br>- Варяг</h5>    
+        </div>
+        <div class="card-text-block">
+            <h3>Практика</h3>
+            <h2>Упрощённый поход выходного дня</h2>
+            <p>Техника езды. Открытие велосезона. Заря-карьер-Варяг.</p>
+        </div>
+        <div class="card-image-block card-image-5"></div>
+    </div>
+    <div class="card lection">
+        <div class="card-date-block">
+            <h3>6 Апреля</h3>
+            <h5>Шошина 25 А</h5>    
+        </div>
+        <div class="card-text-block lection">
+            <h3>Лекция</h3>
+            <h2>Безопасность и медицина</h2>
+            <p>Особенности езды в велопоходе . Безопасность. ПДД и ДТП. Доврачебная медпомощь.</p>
+            <p id="sp-4" class="spoiler">Движение группой. Скорость/безопасность. Контакты с населением и вопросы безопасности. ПДД для байкера. Основные варианты ДТП.  Действия велосипедиста после ДТП. Состав малой личной аптечки и её использование при потёртостях, ссадинах, кровотечении.</p>
+            <h5  id="sp-4-btn" class="spoiler-btn">Подробнее</h5>
+        </div>
+        <div class="card-image-block card-image-6"></div>
+    </div>
+    <div class="card">
+        <div class="card-date-block">
+            <h3>8 — 9 Апреля</h3>
+            <h5>О. Русский. Кампус. </h5>    
+        </div>
+        <div class="card-text-block">
+            <h3>Практика</h3>
+            <h2>Велоореинитрование</h2>
+            <p>Тренировка и участие в соревнованиях во велоориентированию.</p>
+        </div>
+        <div class="card-image-block card-image-7"></div>
+    </div>
+    <div class="card lection">
+        <div class="card-date-block">
+            <h3>13 Апреля</h3>
+            <h5>Шошина 25 А</h5>    
+        </div>
+        <div class="card-text-block lection">
+            <h3>Лекция</h3>
+            <h2>Планирование маршрута</h2>
+            <p>Маршрут похода. Ориентирование в велопоходе</p>
+            <p id="sp-5" class="spoiler"> Планирование маршрута: цели, задачи, учёт конкретных особенностей похода. Карта -  как источник информации о планируемом пути. Общая нитка, планирование дневных перегонов. Приёмы ориентирования – контроль направления, расстояния и ситуации. Прокладка курса. Использование GPS.</p>
+            <h5 id="sp-5-btn" class="spoiler-btn">Подробнее</h5>
+        </div>
+        <div class="card-image-block card-image-8"></div>
+    </div>
+    <div class="card">
+        <div class="card-date-block">
+            <h3>15 Апреля</h3>
+            <h5>Пригород г. Владивостока</h5>    
+        </div>
+        <div class="card-text-block">
+            <h3>Практика</h3>
+            <h2>Поход выходного дня с ориентированием</h2>
+        </div>
+        <div class="card-image-block card-image-9"></div>
+    </div>
+    <div class="card lection">
+        <div class="card-date-block">
+            <h3>27 Апреля</h3>
+            <h5>Шошина 25 А</h5>    
+        </div>
+        <div class="card-text-block lection">
+            <h3>Лекция</h3>
+            <h2>Питание в велопоходе. Организация лагеря</h2>
+            <p>Питание в велопоходе. Тактика подготовки группы к походу. Тактика и техника бивачных работ.</p>
+            <p id="sp-6" class="spoiler">  Варианты организации питания. Составление раскладки – меню + разовый расход (норма).Фасовка продуктов.
+ Варианты комплектования и подготовки группы к походу в зависимости от особенностей маршрута. Тактика движения, ориентирования, питания и пр. Индивидуальные и групповые тренировки, график подготовки. Варианты организации биваков, индивидуальные и групповые бивачные работы</p>
+            <h5 id="sp-6-btn" class="spoiler-btn">Подробнее</h5>
+        </div>
+        <div class="card-image-block card-image-10"></div>
+    </div>
+    <div class="card">
+        <div class="card-date-block">
+            <h3>30 Апреля</br>- 1 Мая</h3>
+            <h5>Пригород г. Владивостока</h5>    
+        </div>
+        <div class="card-text-block">
+            <h3>Практика</h3>
+            <h2>Тренировочный велопоход</h2>
+        </div>
+        <div class="card-image-block card-image-11"></div>
+    </div>
+    <div class="card">
+        <div class="card-date-block">
+            <h3>4 Мая</h3>
+            <h5>Шошина 25 А</h5>    
+        </div>
+        <div class="card-text-block">
+            <h3>Практика</h3>
+            <h2>Подготовка к категорийному велопоходу</h2>
+        </div>
+        <div class="card-image-block card-image-12"></div>
+    </div>
+    <div class="card-pohod">
+        <div class="card-pohod-description">
+            <h3>Практика</h3>
+            <h3>9 Мая — 13 Мая</h3>
+            <h5>Приморский край</h5>
+            <h2>Велопоход</br> 1 категории сложности</h2>
+            <div class="card-pohod-sloshnost-group">    
+                <div class="card-pohod-sloshnost">
+                    <h6>Категория сложности:</h6>
+                    <div class="sloshnost"></div>
+                </div>
+                <div class="card-pohod-days">
+                    <h6>Количество дней:</h6>
+                    <h5>4 дня</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>После завершения велосеминара</h1>
+    <div class="card-promo-group">
+        <div class="card-promo left">
+            <div class="card-promo-img-turistiross"></div>
+            <h3>Вы cможете оформить значок</br> «турист Росcии»</h3>
+        </div>
+        <div class="card-promo left">
+            <div class="card-promo-img-mkk"></div>
+            <h3>У вас будет оформленый поход</br> 1 категории сложности</h3>
+        </div>
+        <div class="card-promo left">
+            <div class="card-promo-img-sport-poh"></div>
+            <h3>Вы будете уверено чувствовать себя в спортивных походах</h3>
+        </div>
+
+        <div class="card-promo left">
+            <div class="card-promo-img-self-poh"></div>
+            <h3>У вас будет достаточно знаний для того чтобы организовать велопоход самому.</h3>
+        </div>
+    </div>
+    <div class="card-where">
+        <div class="card-where-img"></div>
+        <div class="card-where-descrition">
+            <h2>Ознакомительное занятие</h2>
+            <h3>Придите на первое открытое занятие и запишитесь на велосеминар</h3>
+            <h2>16 марта в 19-00</h2>
+            <h3>По адресу</h3>
+            <h3>Снеговая 35 ( школа )
+Клуб Грин-тур. 2 этаж, кабинет 5.</h3>
+        </div>
+    </div>
+</div>
+<i
+ data-anijs="if:click, on: #sp-1-btn, do: $toggleClass show, to:#sp-1;
+             if: click, on: #sp-1-btn, do: $remove #sp-1-btn;
+
+             if:click, on: #sp-2-btn, do: $toggleClass show, to:#sp-2;
+             if: click, on: #sp-2-btn, do: $remove #sp-2-btn;
+
+             if:click, on: #sp-3-btn, do: $toggleClass show, to:#sp-3;
+             if: click, on: #sp-3-btn, do: $remove #sp-3-btn;
+
+             if:click, on: #sp-4-btn, do: $toggleClass show, to:#sp-4;
+             if: click, on: #sp-4-btn, do: $remove #sp-4-btn;
+
+             if:click, on: #sp-5-btn, do: $toggleClass show, to:#sp-5;
+             if: click, on: #sp-5-btn, do: $remove #sp-5-btn;
+
+             if:click, on: #sp-6-btn, do: $toggleClass show, to:#sp-6;
+             if: click, on: #sp-6-btn, do: $remove #sp-6-btn;"
+>
+</i>
+
+  <!-- AniJS core library -->
+  <script src="http://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+
+  <!-- Include to use $addClass, $toggleClass or $removeClass -->
+  <script src="http://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+
+</body>

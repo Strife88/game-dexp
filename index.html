@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/typo.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,700,900" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <div class="header-logo-container">
+        <a href="index.html#main-page-start"><div class="header-logo"></div></a>
+        </div>
+        <div class="nav">
+        <a href="index.html#open-class"><h7>Открытое занятие</h7></a>
+        <a href="program.html"><h7>Программа семинара</h7></a>
+        <a href="index.html#payment-anchor"><h7 class="header-button">Участвовать</h7></a>
+        </div>
+    </div>
+</header>
+<div id="main-page-start" class="hero start-img">
+    <img class="bike-icon" src="svg/bike.svg" alt="Bicicle icon">
+    <h4 class="city">г. Владивосток</h4>
+    <h1>ВЕЛО</br>CEМИНАР</h1>
+    <a href="#open-class"><div class="CTA-button ghost">открытое занятие</div></a>
+    <a href="#payment-anchor"><div class="CTA-button">участвовать</div></a>
+</div>
+
+<div class="container">
+    <h3>Подготовься к многодневному походу</h3>
+    <div class="promo">
+        <img class="promo-icon" src="svg/lecture.svg" alt="Bicicle icon">
+        <h4>Лекции в помещении</h4>
+        <h5>Основы планирования походов, тактика и стратегия. Питание, ПДД, и разное другое.</h5>
+    </div>
+    <div class="promo">
+        <img class="promo-icon" src="svg/practice.svg" alt="Bicicle icon">
+        <h4>Практическая подготовка</h4>
+        <h5>Вы научитесь съезжать с сопок со скоростью, которая оптимальна для успешного прохождения маршрута, так же мы будете уверений кататься.</h5>
+    </div>
+    <div class="promo no-right-margin">
+        <img class="promo-icon" src="svg/pvd.svg" alt="Bicicle icon">
+        <h4>Поход выходного дня</h4>
+        <h5>Чтобы проверить подготовку к серьезному походу, нужно закрепить навыки в походе выходного дня.</h5>
+    </div>
+</div>
+<div class="hero bike-img">
+    <div class="container">
+        <span class="big-text thin">СНАРЯДИ СЕБЯ НА</span></br><span class="big-text bold">МАКСИМУМ</br>ВПЕЧАТЛЕНИЙ</span>
+    </div>
+</div>
+<div class="map-bg">
+    <div class="container">
+        <div class="img-pohod"></div>
+        <div class="container-right">
+        <h2>Поход первой категории сложности</h2>
+        <div class="dashboard">
+            <div class="dashboard-group date ">
+                <h7>ДАТА</h7>
+                <h4>5 МАЯ</h4>
+            </div>
+            <div class="dashboard-group difficulty">
+                <h7>сложность</h7>
+                <h4>СРЕДНЯЯ</h4>
+            </div>
+            <div class="dashboard-group group">
+                <h7>группа</h7>
+                <h4 class="with-icon">12-15</h4><i class="icon-man"></i>
+            </div>
+            <div class="dashboard-group length">
+                <h7>продолжительность</h7>
+                <h4>5 дней</h4>
+            </div>
+        </div>
+        <div class="container-min">
+        <h5>Финальное испытание велосеминариста. В нем закрепляются навыки, полученные в лекционных и практических занятиях.
+        </h5>
+        <h5>Пройдите маршрут по живописным местам приморского края. Обретите товарищей по увлечению.
+        </h5>
+        <a href="#payment-anchor"><a href="#payment-anchor"><div class="CTA-button">участвовать</div></a></a>
+        </div>   
+        </div>
+    </div>
+</div>
+<div class="container-narrow">
+    <h3>Лекции в помещении</h3>
+    <div class="card-big">
+        <div class="card-big-img"></div>
+        <div class="card-text">
+            <h4>Устройство велосипеда и снраяжения</h4>
+            <p>Блок лекций, посвященный устройству велосипеда. Оптимальному выбору велосипеда в зависимости от потребностей, настройки велосипеда под ездока. Изучаем необходимое снаряжение для велопоходов. Вы сможете сшить себе кастомное снаряжение или мы подскажем где купить его.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-img pohod-org"></div>
+        <div class="card-text">
+            <h4>Организация похода</h4>
+            <p>Как правильно рассчитывать еду для участников велопохода; Планирование маршрута. Тактика перемещений и остановок; Организация лагеря, распределение ролей.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-img city-travel"></div>
+        <div class="card-text">
+            <h4>Передвижение по городу</h4>
+            <p>Основные проблемы передвижения по городу; Правила ПДД для велосипеда, Регулирование конфликтов.</p>
+        </div>
+    </div>
+    <div class="card no-right-margin">
+        <div class="card-img health"></div>
+        <div class="card-text">
+            <h4>Физическая подготовка</h4>
+            <p>Спортивные аспект походов; Как грамотно готовится; Виды подготовки, питание и фармакология в походах; Почему нужно проходить медкомиссию.</p>
+        </div>
+    </div>
+
+</div>
+<div class="hero practice-img">
+    <div class="container-narrow">
+        <h3>Практическая подготовка и ПВД</h3>
+        <div class="img-card roads">
+            <div class="Tagline">
+                <h4>Движение по общим дорогам</h4>
+            </div>
+        </div>
+        <div class="img-card trails">
+            <div class="Tagline">
+                <h4>Езда по трейлам</h4>
+            </div>
+        </div>
+        <div class="img-card repair">
+            <div class="Tagline">
+                <h4>Полевой ремонт</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="map-bg-bottom">
+
+<div class="container">
+    <div class="img-pvd"></div>
+    <div class="dashboard pvd-d">
+        <div class="dashboard-group date">
+            <h7>ДАТА</h7>
+            <h4>5 МАЯ</h4>
+        </div>
+        <div class="dashboard-group difficulty">
+            <h7>сложность</h7>
+            <h4>СРЕДНЯЯ</h4>
+        </div>
+        <div class="dashboard-group group">
+            <h7>группа</h7>
+            <h4 class="with-icon">12-15</h4><i class="icon-man"></i>
+        </div>
+        <div class="dashboard-group length">
+            <h7>продолжительность</h7>
+            <h4>5 дней</h4>
+        </div>
+    </div>
+    <div class="container-right-narrow">
+    <h2>Поход выходного дня</h2>
+
+    <h5>Проходит в пригороде г. Владивостока; В нем семинаристы закрепляют навыки на практике. Обучаются грамотному  выбору место для лагеря и обеда. Ставят лагерь, готовят еду. Постигают азы движения в группе. Занимаются полевым ремонтов. 
+    </h5>
+    <a href="#payment-anchor"><div class="CTA-button">участвовать</div></a>
+    </div>   
+</div>
+<div class="container-narrow">
+    <h3>Отзывы семинаристов</h3>
+    <div class="review">
+        <div class="review-img alex"></div>
+        <h6>Это самое лучшее что со мной приключалось последнее время. Рекомендую всем.</h6>
+        <h7>Александр, 25 лет</h7>
+    </div>
+    <div class="review review-width">
+        <div class="review-img jheka"></div>
+        <h6>Мне всё хорошо. Спасибо всем. Очень рад. Надеюсь на повторное приключение. Очень всё полезно, интересно.</h6>
+        <h7>Женя, 32 года</h7>
+    </div>
+    <div class="review">
+        <div class="review-img ksusha"></div>
+        <h6>Это самое лучшее что со мной приключалось последнее время. Рекомендую всем.</h6>
+        <h7>Ксюша, 25 лет</h7>
+    </div>
+    <div class="container-narrow">
+        <h3 class="image-cards">Фотографии с семинара</h3>
+        <div class="image-1"></div>
+        <div class="image-3"></div>
+        <div class="image-5"></div>
+        <div class="image-2"></div>
+        <div class="image-4"></div>
+        <div class="image-6"></div>
+    </div>
+</div>
+<div class="container">
+    <h3 class="what-is-needed">Что нужно для велосеминара</h3>
+    <div class="block">
+        <div class="promo left-align">
+            <div class="promo-icon velo"></div>
+            <h4>Велосипед</h4>
+            <p>Мы поможем подобрать вам велосипед, который будет оптимальный для вашего уровня подготовки.</p>
+        </div>
+        <div class="promo left-align">
+            <div class="promo-icon gear"></div>
+            <h4>Снаряжение</h4>
+            <p>Сумки, багажник, палатки, спальники, - все самое необходимое мы дадим в прокат, либо дадим вам ценные советы по покупке. </p>
+        </div>
+        <div class="promo left-align no-right-margin">
+            <div class="promo-icon strength"></div>
+            <h4>Физическая подготовка</h4>
+            <p>Мы поможем вам за 2 месяца подготовится к тому, чтобы вы смогли проехать заявленный маршрут. Так же расскажем вам про оптимальные методики тренировок.</p>
+        </div>
+    </div>
+</div>
+<div class="container-narrow">
+
+    <h3 id="open-class">Открытый урок</h3> 
+            <div class="plan">
+                <div class="urok-frame first-one">
+                    <div class="urok">
+                        <h7>16 Марта</h7>
+                        <h4>Ознакомитлеьное занятие</h4>
+                        <p>Первое вводное занятие, рассказ о всем курсе. О том как проходят занятия и походы. Какой темп езды в группе, какая подготовка нужна для того чтобы участвать.</br> 
+                        Приходите будет интересно.</p>
+                        <h7>Время и дата</h7>
+                        <h4>16 марта в 19-00</h4>
+                        <h7>Место</h7>
+                        <p>Снеговая 35 ( школа )</br>
+                        Клуб Грин-тур. 2этаж, кабинет 5.</p>
+                        <h4 class="last">Вход свободный</h4>
+                    </div>
+                    <div class="location"></div>
+                    </div>
+            </div>
+
+</div>
+<div class="hero bottom-trail">
+    <div class="container center-container">
+        <h3>Главный преподаватель велосеминара</h3>
+        <div class="shatilov-info">
+            <h4>Шатилов Александр Олегович</h4>
+            <p>57 лет. Заслуженный путешественник россии.</p>
+        </div>
+
+        <div class="review shatilovshina">
+            <div class="shatilov">
+                 <span class="ending-text">Велосеминар — это отличная база для подготовки грамотных велотуристов, мультиспортсменов, а так же он помогает отточить навыки уже состоявшихся туристов.</span>
+            </div>       
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="container-narrow center-container">
+    <div id="payment-anchor" class="bundle">
+        <div class="text-block">
+            <h3>Заявка на участие в велосеминаре</h3>
+            <p>Записывайтесь, и вы получите:</p>
+            <h5 class="format">
+            • 1,5 месяца занятий на велосеминаре:</br>
+            — практика</br>
+            — теория</br>
+            — ПВД</h5>
+
+            <h5>• Велопоход 1 категории сложности</h5>
+
+            </h5>• Настройку велосипеда</h5>
+
+            <h5>• Индивидуальные консультации по
+            велосипеду и снаряжению, методикам
+            тренировки.
+            </h5>
+        </div>
+        <h4 class="payment">Варианты оплаты</h4>
+        <div class="payment1">
+            <h4>Рассрочка:</h4>
+            <h5>2 платежа* по</h5>
+            <h3> 2 500 ₽</h3>
+        </div>
+        <h4 class="or">или</h4>
+        <div class="payment2">
+            <h4>Разово:</h4>
+            <h5>5 000 ₽</h5>
+            <h3> 4 500 ₽</h3>
+        </div>
+
+        <div
+
+        data-anijs="if:click, do: $toggleClass show, to:.form-input-bg;
+                    if: click, on: .close-form, do: $removeClass show, to: $closest target | .form-input-bg;"
+       
+        class="CTA-button full-width">ЗАЯВИТЬСЯ</div>
+    </div>
+
+</div>
+<div class="form-input-bg">
+    <div class="form-input">
+        <i class="close-form"></i>
+        <h4>Заявка на участие</h4>
+            <form method="POST" action="http://formspree.io/strife88@mail.ru">
+                <h7> Имя </h7> <input type="text" placeholder="Введите ваше имя" name="name">
+                <h7> E-mail: </h7> <input type="email" placeholder="Ваш E-mail" name="email"><br>
+                <h7> Телефон: </h7> <input type="tel" placeholder="Ваш Телефон" name="telephone"><br> 
+                <button class="CTA-button" type="submit">Отправить</button>
+
+            </form>
+    </div>
+</div>
+
+</div>
+
+
+</div>
+
+  <!-- AniJS core library -->
+  <script src="http://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+
+  <!-- Include to use $addClass, $toggleClass or $removeClass -->
+  <script src="http://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+
+</body>
+
+</html>
